@@ -1,2 +1,5 @@
 body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1 {color: blueviolet;}
+h1, h2 {color: blueviolet;}
+.evenrow {background-color: rgb(196, 255, 185)}
+h1 {font-size: 4em;}
+h2 {font-size: 3em;}
