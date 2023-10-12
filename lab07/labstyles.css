@@ -1,0 +1,10 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {background-color: #FFF5E0;}
+body {color: #2E4374;}
+a {color: #186F65;}
+h1 {color: #96C291;}
+nav {background-color: #CEDEBD;}
+nav a{color: #352F44;}
+nav a:hover {background-color: #ccc6ff;}
+nav {padding: 10px;
+    margin-bottom: 30px;}
