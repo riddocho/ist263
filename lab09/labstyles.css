@@ -1,0 +1,24 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif; color: #2E4374; background-color: #FFF5E0; padding: 40px;}
+a {color: #186F65;}
+h1 {color: #96C291; text-align: center; padding: 40px;}
+nav {background-color: #CEDEBD; padding: 10px;}
+nav a{color: #352F44;}
+nav a:hover {background-color: #ccc6ff;}
+nav {margin-bottom: 30px;}
+.quote {float: right;}
+
+.address {margin: 10px, 10px, 10px, 10px; flex: 1;}
+.contact {margin: 10px, 10px, 10px, 10px; flex: 1;}
+.outreach {margin: 10px, 10px, 10px, 10px; flex: 1;}
+.map {margin: 10px, 10px, 10px, 10px; flex: 1;}
+.clear {clear: both;}
+.row1 {background-color: #CEDEBD; display: flex; border-radius: 1em;}
+.row2 {background-color: #CEDEBD; display: flex; border-radius: 1em;}
+div {padding: 10px;}
+.skills {display: flex; justify-content: space-between;}
+aside {background-color: rgb(226, 199, 221); border-radius: 5px; padding: 20px;}
+.flexbox2 {display: flex;}
+.column1 {flex-basis: 75%;}
+.column2 {flex-basis: 25%;}
+p {padding: 40px;}
+img {width: 80px;}
