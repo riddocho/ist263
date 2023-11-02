@@ -9,7 +9,7 @@ nav {margin-bottom: 30px;}
 
 .address {margin: 10px, 10px, 10px, 10px; flex: 1;}
 .contact {margin: 10px, 10px, 10px, 10px; flex: 1;}
-.outreach {margin: 10px, 10px, 10px, 10px; flex: 2;}
+.outreach {margin: 10px, 10px, 10px, 10px; flex: 2; display: flex;}
 .map {margin: 10px, 10px, 10px, 10px; flex: 1; display: flex;}
 .clear {clear: both;}
 .row1 {background-color: #CEDEBD; display: flex; border-radius: 1em;}
