@@ -10,7 +10,7 @@ nav {margin-bottom: 30px;}
 .address {margin: 10px, 10px, 10px, 10px; flex: 1;}
 .contact {margin: 10px, 10px, 10px, 10px; flex: 1;}
 .outreach {margin: 10px, 10px, 10px, 10px; flex: 1;}
-.map {margin: 10px, 10px, 10px, 10px; flex: 1;}
+.map {margin: 10px, 10px, 10px, 10px; flex: 1; flex-wrap: wrap;}
 .clear {clear: both;}
 .row1 {background-color: #CEDEBD; display: flex; border-radius: 1em;}
 .row2 {background-color: #CEDEBD; display: flex; border-radius: 1em; flex-wrap: wrap;}
