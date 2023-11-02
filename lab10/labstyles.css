@@ -13,10 +13,10 @@ nav {margin-bottom: 30px;}
 .map {margin: 10px, 10px, 10px, 10px; flex: 1;}
 .clear {clear: both;}
 .row1 {background-color: #CEDEBD; display: flex; border-radius: 1em;}
-.row2 {background-color: #CEDEBD; display: flex; border-radius: 1em;}
+.row2 {background-color: #CEDEBD; display: flex; border-radius: 1em; flex-wrap: wrap;}
 div {padding: 10px;}
 .skills {display: flex; justify-content: space-between;}
 aside {background-color: rgb(226, 199, 221); border-radius: 5px; padding: 20px;}
 .flexbox2 {display: flex;}
-
+.banner {max-width: 100%;}
 p {padding: 40px;}
