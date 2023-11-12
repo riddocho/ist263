@@ -1,14 +1,18 @@
 body {font-family: Verdana, Geneva, Tahoma, sans-serif; color: #2E4374; background-color: #FFF5E0; padding: 40px;}
-a {color: #186F65;}
+a {color: #000000;}
 h1 {color: #96C291; text-align: center; padding: 40px;}
 nav {background-color: #CEDEBD; padding: 10px;}
 nav a{color: #352F44;}
 nav a:hover {background-color: #ccc6ff;}
 nav {margin-bottom: 30px;}
 .quote {float: right;}
-
+a:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;}
 .address {margin: 10px, 10px, 10px, 10px; flex: 1;}
 .contact {margin: 10px, 10px, 10px, 10px; flex: 1;}
+body .row1 .contact a {color: #1f2e4f;}
 .outreach {margin: 10px, 10px, 10px, 10px; flex: 2;}
 .map {margin: 10px, 10px, 10px, 10px; flex: 1; display: flex;}
 .clear {clear: both;}
