@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .skip {background-color: #ffbf00;
+        padding: 5px;
+        border: 1px solid #000000;
+        text-decoration: none;
+        position: absolute; /*positions an element relative to the top left of the viewport, can also put text on top of an image*/
+        top: 10px;
+        left: -999px; /* -999 pushes it off the left side fo the screen*/
+
+        }
+
+        .skip:focus {
+            left: 10px; /*bring it back when it's been tabbed to*/
+
+        }
+    </style>
+</head>
+<body>
+    <!--Don't forget proper semantic tags-->
+    <nav>
+        <!-for complex websites, change the order tab goes in-->
+        <a href="#main" tabindex="1" class="skip">Skip to Content</a>
+<a href="http://.syr.edu" tabindex="4">Syracuse University</a>
+<a href="http://ischool.syr.edu" tabindex="3"> iSchool</a>
+<a href="http://soe.syr.edu" tabindex="2">School of Education</a>
+    </nav>
+    <main>
+        <h1 id="main">Accessibility or A11y</h1>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio possimus nam officia modi nulla recusandae, perspiciatis dicta. Voluptatem quaerat quam, sunt commodi, iusto fuga dignissimos culpa totam repellat repellendus expedita.
+    </main>
+</body>
+</html>

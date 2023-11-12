@@ -1,0 +1,26 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif; color: #2E4374; background-color: #FFF5E0; padding: 40px;}
+a {color: #186F65;}
+h1 {color: #96C291; text-align: center; padding: 1em;}
+nav {background-color: #CEDEBD; padding: 1em;}
+nav a{color: #352F44;}
+nav a:hover {background-color: #ccc6ff;}
+nav {margin-bottom: 1em;}
+.quote {float: right;}
+.outreach h1 {color: #352F44; text-align: start;}
+
+.address {margin: 1em, 1em, 1em, 1em; flex: 1;}
+.contact {margin: 1em, 1em, 1em, 1em; flex: 1;}
+.outreach {margin: 1em, 1em, 1em, 1em; flex: 2;}
+.map {margin: 1em, 1em, 1em, 1em; flex: 1; display: flex;}
+.clear {clear: both;}
+.row1 {background-color: #CEDEBD; display: flex; border-radius: 1em;}
+.row2 {background-color: #CEDEBD; display: flex; border-radius: 1em; flex-wrap: wrap;}
+div {padding: 1em;}
+.skills {display: flex; justify-content: space-between;}
+aside {background-color: rgb(226, 199, 221); border-radius: 1em; padding: 2em;}
+.flexbox2 {display: flex;}
+.banner {max-width: 100%;}
+body main {padding: 1em;}
+form {max-width: 100%;}
+@media only screen and (max-width: 800px)
+    {nav a {width: 100%; display: block; padding: 1em;} span {display: none;}}

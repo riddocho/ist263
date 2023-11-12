@@ -21,5 +21,21 @@ aside {background-color: rgb(226, 199, 221); border-radius: 5px; padding: 20px;}
 .banner {max-width: 100%;}
 body main {padding: 10px;}
 form {max-width: 100%;}
+.skip {background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute; /*positions an element relative to the top left of the viewport, can also put text on top of an image*/
+    top: 10px;
+    left: -999px; /* -999 pushes it off the left side fo the screen*/
+
+    }
+
+    .skip:focus {
+        left: 10px; /*bring it back when it's been tabbed to*/
+
+    }
 @media only screen and (max-width: 800px)
     {nav a {width: 100%; display: block; padding: 10px;} span {display: none;}}
+
+    
